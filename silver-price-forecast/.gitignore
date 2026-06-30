@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw/processed data usually excluded from repo; see README for regeneration instructions)
+data/*.csv
+!data/.gitkeep
+
+# Model artifacts and generated outputs
+outputs/*.joblib
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Environment variables / secrets
+.env
